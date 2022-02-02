@@ -1,1 +1,3 @@
-web: gunicorn CCMS.wsgi --log-file -
+import project
+
+web: waitress-serve --port=$3306 project.wsgi:application
