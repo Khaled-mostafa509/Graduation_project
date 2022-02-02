@@ -98,13 +98,23 @@ WSGI_APPLICATION = 'project.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'graduation_project',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#     }
+# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'graduation_project',
-        'HOST': '127.0.0.1',
+        'NAME': 'khaled509>$<graduation_project',
+        'HOST': 'khaled509.mysql.pythonanywhere-services.com',
         'PORT': '3306',
-        'USER': 'root',
+        'USER': 'khaled509',
         'PASSWORD': '',
     }
 }
